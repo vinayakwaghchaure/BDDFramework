@@ -1,0 +1,228 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Orange HRM Login Test Scenario",
+        "description": "",
+        "id": "login-feature;orange-hrm-login-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2044513300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i launch the browser",
+            "match": {
+              "location": "LoginStepDefination.i_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4359561500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the URL",
+            "match": {
+              "location": "LoginStepDefination.i_enter_the_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14786600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title of login page",
+            "match": {
+              "location": "LoginStepDefination.title_of_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 199445700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 13
+                },
+                {
+                  "val": "admin123",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5225292300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6461600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 670541000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Orange HRM Login Test Scenario",
+        "description": "",
+        "id": "login-feature;orange-hrm-login-test-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1363025200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i launch the browser",
+            "match": {
+              "location": "LoginStepDefination.i_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4452196200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the URL",
+            "match": {
+              "location": "LoginStepDefination.i_enter_the_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10484100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title of login page",
+            "match": {
+              "location": "LoginStepDefination.title_of_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 199709300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"admin\" and \"test456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 13
+                },
+                {
+                  "val": "test456",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1863958500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10115600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 693534200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "D:/UI/BDDFreamework/src/main/java/features/login.feature"
+  }
+]

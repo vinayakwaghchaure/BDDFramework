@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="21.113625">
+<testcase classname="Login Feature" name="Orange HRM Login Test Scenario" time="12.520602">
+<system-out><![CDATA[Given i launch the browser..................................................passed
+When I enter the URL........................................................passed
+When title of login page....................................................passed
+Then user enters "admin" and "admin123".....................................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="Orange HRM Login Test Scenario 2" time="8.593023">
+<system-out><![CDATA[Given i launch the browser..................................................passed
+When I enter the URL........................................................passed
+When title of login page....................................................passed
+Then user enters "admin" and "test456"......................................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
